@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  background-color: transparent;
+}
+
+nav .pulse {
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 20px;
+}
+nav .pulse span {
+  color: #FFC515;
+}
+nav .collapse {
+  align-items: center;
+  justify-content: center;
+}
+
+.reser {
+  display: flex;
+  gap: 10px;
+}
+.reser p {
+  color: #FFC515;
+}
+.reser i {
+  color: white;
+}
+.reser span {
+  color: white;
+  padding-right: 20px;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  padding: 20px;
+  font-size: 12px;
+}
+
+.navbar-light .navbar-nav .active .nav-link {
+  color: #FFC515;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+#food {
+  background-image: url(/assets/img/slider-1\ \(1\).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+#food .bychef h1 {
+  font-size: 90px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+}
+
+#welcome .welcome {
+  text-align: center;
+}
+#welcome .welcome i {
+  font-size: 50px;
+}
+#welcome .welcome h2 {
+  font-weight: 700;
+  padding: 20px;
+}
+#welcome .welcome h2 span {
+  color: #FFC515;
+}
+#welcome .welcome .best {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#welcome .welcome .best .red {
+  background-color: #FFC515;
+  height: 2px;
+  width: 150px;
+}
+#welcome .sem {
+  width: 70%;
+}
+#welcome .nisi {
+  text-align: center;
+}
+#welcome .nisi h4 {
+  padding: 20px;
+}
+#welcome .nisi p {
+  font-size: 15px;
+  color: gray;
+}
+#welcome .leo {
+  padding: 20px;
+  text-align: center;
+}
+
+#testimonials {
+  background-image: url(/assets/img/review-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+#testimonials .integer {
+  text-align: center;
+  color: white;
+}
+#testimonials .integer i {
+  font-size: 50px;
+}
+#testimonials .integer p {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+#testimonials .integer h2 {
+  padding: 20px;
+}
+#testimonials .integer h2 span {
+  color: #FFC515;
+}
+#testimonials .integer h5 {
+  color: #FFC515;
+  font-size: 15px;
+}
+#testimonials .integer h5 span {
+  color: white;
+}
+#testimonials .integer .best {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#testimonials .integer .best .red {
+  background-color: #FFC515;
+  height: 2px;
+  width: 150px;
+}
+
+#ourservices .services {
+  text-align: center;
+}
+#ourservices .services i {
+  font-size: 50px;
+  padding: 20px;
+}
+#ourservices .services .best {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ourservices .services .best .red {
+  background-color: #FFC515;
+  height: 2px;
+  width: 150px;
+}
+#ourservices h2 {
+  padding: 20px;
+}
+#ourservices h2 span {
+  color: #FFC515;
+}
+#ourservices .breakfast {
+  text-align: center;
+}
+#ourservices .breakfast i {
+  font-size: 25px;
+  padding-top: 20px;
+  color: #C69D31;
+}
+#ourservices .breakfast h4 {
+  padding: 10px;
+}
+#ourservices .breakfast p {
+  font-size: 15px;
+  color: gray;
+}
+
+footer {
+  background-image: url(/assets/img/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 600px;
+  text-align: center;
+}
+footer .map {
+  background-image: url(/assets/img/vt\ \(1\).png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 300px;
+}
+footer .contact i {
+  font-size: 50px;
+}
+footer .contact .best {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .contact .best .red {
+  background-color: #FFC515;
+  height: 2px;
+  width: 150px;
+}
+footer .contact #inp1 {
+  margin-bottom: 20px;
+  width: 100%;
+}
+footer .contact #area {
+  width: 100%;
+}
+footer #btnsend {
+  padding: 5px 15px;
+  border: 0;
+  color: black;
+  background-color: #FFC515;
+}
+footer .solid {
+  background-color: white;
+  width: 50%;
+  padding-top: -20px;
+  margin-top: -20px;
+  min-height: 150px;
+}
+footer p {
+  color: gray;
+  padding-top: 20px;
+}
+
+#select #products .boxDiv img {
+  width: 100%;
+}
+
+#header {
+  background-color: gray;
+}
+
+#select #products .boxDiv img {
+  width: 100%;
+}
+
+#header {
+  background-color: gray;
+}
+
+#header {
+  position: static;
+  background-color: grey;
+}
+
+#select #products .boxDiv img {
+  width: 100%;
+}
